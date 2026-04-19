@@ -54,7 +54,9 @@ The **QA Status** custom field is the backbone of the QA Summary Panel. It allow
 
 ### How to Locate the QA Status Field
 - Open any Jira issue (Story, Bug, Task, etc.).
-- Look for the **QA Status** field in the issue details section (usually on the right side).
+- Look for the **QA Status** Custom field in the issue details section (usually on the right side).
+  <img width="1840" height="900" alt="Update Status" src="https://github.com/user-attachments/assets/7c8ed28f-e3e9-4676-976c-4fd4d3315bb2" />
+
 - If you see the field, you can set its value to reflect the current QA state of the issue.
 
 ### What if the QA Status Field is Missing?
