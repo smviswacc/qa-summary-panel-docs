@@ -47,6 +47,35 @@ Jira users often struggle to:
 - Open any Epic or parent issue in your Jira project.
 - The QA Summary Panel will appear, showing real-time QA insights and analytics.
 
+## Understanding and Using the QA Status Custom Field
+
+### Why is the QA Status Field Important?
+The **QA Status** custom field is the backbone of the QA Summary Panel. It allows your team to track the quality assurance state (PASS, FAILED, REOPEN, etc.) for each issue. The panel aggregates these values to provide real-time insights, analytics, and notifications across your project.
+
+### How to Locate the QA Status Field
+- Open any Jira issue (Story, Bug, Task, etc.).
+- Look for the **QA Status** field in the issue details section (usually on the right side).
+- If you see the field, you can set its value to reflect the current QA state of the issue.
+
+### What if the QA Status Field is Missing?
+If you don’t see the QA Status field:
+1. **Check Field Configuration:**  
+   - Go to Jira Settings > Issues > Field Configurations.
+   - Ensure **QA Status** is added to the relevant screens and issue types.
+2. **Add the Field:**  
+   - Go to Jira Settings > Issues > Custom Fields.
+   - Click **Add custom field**, search for **QA Status**, and add it to your project screens.
+3. **Permissions:**  
+   - Make sure you have permission to edit issue fields in your project.
+
+### The Importance of the QA Status Field
+- **Accurate Reporting:** The QA Summary Panel relies on this field to display pass/fail/reopen counts and trends.
+- **Team Collaboration:** Ensures everyone is on the same page regarding QA progress.
+- **Automated Insights:** Without this field, the panel cannot provide real-time QA analytics or notifications.
+
+**Tip:**
+Encourage your team to update the QA Status field as part of their workflow. This ensures the QA Summary Panel always reflects the latest project quality state.
+
 ## Removing the App
 - Go to **Jira Settings > Apps > Manage Apps**.
 - Find **QA Summary Panel** and click **Uninstall**.
@@ -58,3 +87,4 @@ For help, feature requests, or bug reports, contact:
 ## Learn More
 - [Company Website](https://www.concertidc.com/)
 - [Marketplace Listing](https://marketplace.atlassian.com/apps/641867327)
+
