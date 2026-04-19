@@ -1,4 +1,4 @@
-# QA Summary Panel for Jira
+# QA Summary Panel
 
 ## Overview
 QA Summary Panel is a powerful Jira app designed to give teams real-time visibility into QA status, issue progress, and quality trends. It centralizes QA notifications, analytics, and recent changes, making it easy to track and improve release quality directly within Jira.
