@@ -58,9 +58,13 @@ The **QA Status** custom field is the backbone of the QA Summary Panel. It allow
 - If you see the field, you can set its value to reflect the current QA state of the issue.
 
 ### What if the QA Status Field is Missing?
-If you don’t see the QA Status field:
+If you don’t see the QA Status field in EPIC or Story or bug , task or sub tasks
+
 1. **Check Field Configuration:**  
-   - Go to Jira Settings > Issues > Field Configurations.
+   - Go to In the bottom right of a Ticket > Configure > Field Configurations.
+   <img width="681" height="434" alt="image" src="https://github.com/user-attachments/assets/4b47d777-0166-4409-84ef-c1f464e4b9df" />
+   <img width="690" height="424" alt="image" src="https://github.com/user-attachments/assets/73fc190c-78b2-4bdc-9b47-2527f740e4d6" />
+
    - Ensure **QA Status** is added to the relevant screens and issue types.
 2. **Add the Field:**  
    - Go to Jira Settings > Issues > Custom Fields.
