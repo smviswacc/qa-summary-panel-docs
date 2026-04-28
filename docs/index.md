@@ -45,7 +45,10 @@ Jira users often struggle to:
 
 ## Viewing the Panel
 - Open any Epic or parent issue in your Jira project.
-- The QA Summary Panel will appear, showing real-time QA insights and analytics.
+- The QA Summary Panel will appear when add by clicking the Gear ICON , showing real-time QA insights and analytics.
+- Select the 'QA Summary Panel' as shown in the below picture. 
+<img width="1104" height="664" alt="image" src="https://github.com/user-attachments/assets/acdf64eb-ab4c-4218-bcb6-a48a269855da" />
+
 
 ## Understanding and Using the QA Status Custom Field
 
